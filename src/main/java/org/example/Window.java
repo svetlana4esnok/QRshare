@@ -16,7 +16,7 @@ public class Window {
         BPchouseFile.setBounds(20, 390,100, 50);
 
         TXpath.setFocusable(false);
-        TXpath.setSize(500, 50);
+        TXpath.setBounds(130, 390, 1000, 50);
 
         Wmain.add(TXpath);
         Wmain.add(BPchouseFile);
@@ -27,6 +27,12 @@ public class Window {
 
 
         changeText(path, TXpath);
+
+
+
+
+
+
     }
 
 
