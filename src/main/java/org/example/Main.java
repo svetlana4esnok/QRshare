@@ -15,7 +15,7 @@ public class Main {
         UIManager.setLookAndFeel(UIManager.getSystemLookAndFeelClassName()); //Change a style of window
 
         JFileChooser fileChooser = new JFileChooser(); //Create a window
-        fileChooser.showOpenDialog(null); //Open the window
+        fileChooser.showOpenDialog(null);  //Open the window
         File file = fileChooser.getSelectedFile();
         String path = file.getPath();
         System.out.println(path);
