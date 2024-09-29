@@ -42,10 +42,11 @@ public class Window {
         Wmain.add(TXpath);
         Wmain.add(BPchouseFile);
         Wmain.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-        Wmain.setSize(500, 500);
+        Wmain.setSize(500, 530);
         Wmain.setLayout(null);
         Wmain.setVisible(true);
         Wmain.setLocationRelativeTo(null);
+        Wmain.setResizable(false);
 
         changeText(path, TXpath);
 
