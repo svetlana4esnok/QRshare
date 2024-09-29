@@ -7,7 +7,7 @@ import java.awt.event.ActionListener;
 
 public class Window {
 
-    ImageIcon IMqr = new ImageIcon("C:/Users/lolga/IdeaProjects/Hand/src/main/java/org/example/www.jpg");
+    ImageIcon IMqr = new ImageIcon("java/org/example/www.jpg");
     JFrame Wmain = new JFrame();
     JButton BPchouseFile = new JButton("Choose File");
     JLabel TXpath = new JLabel();
